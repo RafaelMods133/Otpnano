@@ -125,7 +125,7 @@ export function DepositQris({
       {isQris ? (
         <div className="mt-6 flex justify-center">
           <div className="rounded-xl bg-white p-4 shadow-lg">
-            <QRCodeSVG value={paymentNumber} size={220} />
+            <QRCodeSVG value={paymentNumber} size={220} level="M" includeMargin={true} />
           </div>
         </div>
       ) : (
